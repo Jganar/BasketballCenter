@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/jpg" href="img/logo2.png">
+    <title>Basketball Center</title> 
+</head>
+<body>
+    <nav><div class="nav__content">
+        <div class="logo"><a href="#">Basketball Center</a></div>
+        </div>
+    </nav>
+    <button class="tablink" onclick="openPage('Portfolio', this, 'red')"id="defaultOpen">Portfolio</button>
+    <button class="tablink" onclick="openPage('Services', this, 'green')">Services</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+    
+    <div id="Portfolio" class="tabcontent">
+      <nav class="portfolio_data">
+        <div class="data">
+          <h1 class="home">Hi,<br>I'm <span class="home_color">Jemar</span><br>a Baketball Trainer</h1>
+          <a href="#contact" class="button">Hire me!</a>
+        </div>
+      </nav>
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">          
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+                <p class="skills__text">As a seasoned basketball trainer, my skill set encompasses a multifaceted approach to player development. I possess a deep understanding of the game's intricacies, allowing me to design and implement effective skill-specific drills that target shooting accuracy, ball handling, footwork, and defensive prowess. My expertise extends to tactical coaching, where I guide players in understanding offensive and defensive strategies, fostering a holistic comprehension of the sport.</p>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Shooting</span>
+                    </div>
+                    <div class="skills__bar Shooting">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">90%</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Passing</span>
+                    </div>
+                    <div class="skills__bar Passing">
+                            
+                    </div>
+                    <div>
+                        <span class="skills__percentage">75%</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Dribbling</span>
+                    </div>
+                    <div class="skills__bar Dribbling">
+                            
+                    </div>
+                    <div>
+                        <span class="skills__percentage">65%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Leadership</span>
+                    </div>
+                    <div class="skills__bar Leadership">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">87%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                      <span class="skills__name">Defense</span>
+                  </div>
+                  <div class="skills__bar Leadership">
+                      
+                  </div>
+                  <div>
+                      <span class="skills__percentage">85%</span>
+                  </div>
+              </div>
+              </div>
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Message me!</h2>
+
+      <div class="contact__container bd-grid">
+          <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" class="contact__input" required>
+              <input type="mail" name="Email" placeholder="Your Email" class="contact__input" required>
+              <textarea name="Message" rows="6"  placeholder="Your Message" class="contact__input"></textarea>
+              <button type="send"  value="Send" class="contact__button button">Send</button>
+          </form>
+          <span id="msg"></span>
+      </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__title">Jemar</p>
+    <p class="footer__copy">&#169; HoopCenter. All rights reserved</p>
+</footer>
+</main>
+    </div>
+    
+    <div id="Services" class="tabcontent">
+      <h3>Services</h3>
+      <nav class="information">
+        <p>As a dedicated basketball trainer, I offer comprehensive services designed to elevate players' skills and overall performance. My training programs encompass personalized skill development sessions, focusing on shooting accuracy, ball handling, defensive techniques, and strategic understanding of the game. I conduct rigorous fitness training to enhance players' strength, agility, and endurance. Additionally, I provide in-depth tactical coaching, honing their court awareness and decision-making abilities. Whether it's one-on-one sessions, group training, or team workshops, my goal is to tailor the experience to meet the unique needs and aspirations of each player. I also offer mentorship, fostering a positive mindset and instilling values of sportsmanship and teamwork. Through a holistic approach, I strive to unlock the full potential of my athletes, preparing them not only for success on the court but also for life beyond the game.</p>
+      </nav>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img/paassing 2.jpg">
+            <img src="img/paassing 2.jpg" alt="paassing" width="600" height="400">
+          </a>
+          <div class="desc">Passing</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img/teamwork 2.jpg">
+            <img src="img/teamwork 2.jpg" alt="Shooting" width="600" height="400">
+          </a>
+          <div class="desc">Teamwork</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img/image-placeholder-title.jpg">
+            <img src="img/image-placeholder-title.jpg" alt="teamwork" width="600" height="400">
+          </a>
+          <div class="desc">Dribbling</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img/personal-basketball-training-in-1.webp">
+            <img src="img/personal-basketball-training-in-1.webp" alt="Defense" width="600" height="400">
+          </a>
+          <div class="desc">Defense</div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+    </div>
+    
+    <div id="Contact" class="tabcontent">
+      <h3>Contact</h3>
+      <nav class="paragraph">
+        <body>
+            <p>Facebook Account: Jemar Ganar</p>
+            <p>Phone number: 09703798016 & 09457498817</p>
+            <p>Email Account: jemarganar799@gmail.com</p>
+            <p>Instagram: jemarganar</p>
+        </body>
+      </nav>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <footer class="footer">
+        <p class="footer__title">Jemar</p>
+        <p class="footer__copy">&#169; HoopCenter. All rights reserved</p>
+    </footer>
+    </div>
+    
+    <div id="About" class="tabcontent">
+      <h3>About</h3>
+      <nav>
+        <img src="img/profile.jpg" width="350" height="400">
+      </nav>
+      <div class="ako">
+        <p>As a basketball trainer, my goal is molding prospective athletes into complete players who not only possess exceptional skill sets but also personify the values of sportsmanship and collaboration. I take a complete approach to coaching, focusing on areas for improvement as well as finding and fostering each person's unique talents. I focus on the fundamentals of the game through specialized training sessions, developing players' shooting accuracy, defensive strength, and strategic decision-making. Beyond the court, I work to give my players a feeling of self-control, resiliency, and unity. Every dribble and every jump shot presents a chance for improvement, and I take great satisfaction in helping my squad reach its greatest potential. My dedication as a basketball trainer goes beyond the skillful elements of the game to include character development.</p>
+      </div>
+    </div>
+
+    <div class="buttons padd-15">
+      <a href="#" data-section-index="1" class="btn Hire-me"> Contact</a>
+    </div>
+    
+    <script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    document.getElementById("defaultOpen").click();
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxkvyNXX9NqR-dx7hsZccNaJsfReLzY42GipZFxanjB3yjkF8bMzjjLPXgbQmefgu213g/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent Sucessfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
